@@ -12,6 +12,7 @@ body {
 
 .player {
     width: 320px;
+    /* height: 500px;  */
     padding: 20px;
     border-radius: 20px;
     background: linear-gradient(45deg, #0a1225, #082c32);
@@ -19,10 +20,18 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 10px 5px #8a8a9540;
 }
+.image-box{
+    width:320px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+}
 
 .image-box img {
-    width: 100%;
+    height: 100%;
+     width: 100%; 
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .song-info {
@@ -65,11 +74,22 @@ body {
 }
 
 .fill {
+    /* -webkit-appearance: none; */
     width: 60%;
     height: 100%;
     background: white;
     border-radius: 5px;
 }
+/* .fill::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #0a1225;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    border: 8px solid black;
+    box-shadow: 0 5px 5px grey;
+
+} */
 
 .controls {
     gap: 35px;
