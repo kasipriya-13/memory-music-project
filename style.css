@@ -72,6 +72,9 @@ body {
     border-radius: 5px;
     position: relative;
 }
+.bar:hover{
+    cursor: pointer;
+}
 
 .fill {
     /* -webkit-appearance: none; */
